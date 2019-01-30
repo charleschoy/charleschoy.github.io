@@ -1,0 +1,413 @@
+/* Scss Document */
+/***************
+TsingStone Info&Art Design Studio
+the Academy of Arts & Design, Tsinghua University
+Author:Jason Woo 
+***************/
+/* Scss Document */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, figure, figcaption, code, del, dfn, em, button, q, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, tf, tr, th {
+  border: 0px;
+  padding: 0px;
+  font-size: 100%;
+  margin: 0px;
+  font-family: inherit;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-weight: normal;
+  word-break: break-word; }
+
+body {
+  background: #f3f1ec;
+  color: #222;
+  line-height: 1.6em;
+  font-size: 12px;
+  font-family: Source Sans Pro, Arial, Helvetica;
+  margin: 0px;
+  max-width: 2560px;
+  overflow-x: hidden; }
+
+input[type="text"], input[type="password"], textarea, select {
+  font-family: Source Sans Pro, Arial, Helvetica;
+  background-color: #FFFFFF;
+  font-size: 12px;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+img {
+  border: 0px;
+  vertical-align: bottom;
+  -ms-interpolation-mode: bicubic; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+a:hover {
+  text-decoration: none;
+  color: #d18e59; }
+
+ul, li {
+  list-style-type: none; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+  height: 0px;
+  visibility: hidden; }
+
+.relative {
+  position: relative; }
+
+.clearfix {
+  *display: table;
+  *zoom: 1; }
+
+.clear {
+  clear: both;
+  overflow: hidden;
+  height: 0; }
+
+*::selection {
+  background: #5C307D;
+  color: #FFFFFF;
+  text-shadow: none; }
+
+*::-moz-selection {
+  background: #5C307D;
+  color: #FFFFFF;
+  text-shadow: none; }
+
+.ie6 {
+  text-align: center;
+  font-size: 16px;
+  background: #FC6;
+  line-height: 100px;
+  z-index: 100000;
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  top: 0;
+  left: 0; }
+
+.ie6 span {
+  float: right;
+  margin-right: 30px;
+  cursor: pointer; }
+
+.masklayer {
+  background: rgba(0, 0, 0, 0.9);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  display: none; }
+
+/*motion*/
+.motion {
+  transition: all .2s ease-out; }
+
+.motion_1 {
+  transition: all 0.5s ease-out; }
+
+.pager {
+  clear: both;
+  margin: 25px 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; }
+
+.pager a {
+  background: none;
+  border: 1px solid #aaa;
+  color: #461B6E;
+  display: inline-block;
+  line-height: 32px;
+  margin: 0 2px;
+  padding: 0 10px;
+  height: 32px;
+  border-radius: 3px;
+  vertical-align: middle; }
+
+.pager b {
+  background: none;
+  color: #461B6E;
+  display: inline-block;
+  line-height: 32px;
+  margin: 0 2px;
+  padding: 0 10px;
+  height: 32px;
+  vertical-align: middle; }
+
+.pager a:hover, .pager a.current {
+  background-color: #461B6E;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 34px;
+  height: 34px;
+  padding: 0 11px; }
+
+.pager .p {
+  font-size: 22px; }
+
+.pager input {
+  height: 32px;
+  line-height: 32px;
+  width: 30px;
+  text-align: center;
+  background: none;
+  border: 1px solid #aaa;
+  vertical-align: middle;
+  border-radius: 3px;
+  margin: 0 5px; }
+
+.pager span {
+  padding: 0  0 0 20px;
+  color: #777; }
+
+.mobilemore {
+  display: none;
+  margin: 20px 0px; }
+  @media screen and (max-width: 1000px) {
+    .mobilemore {
+      display: block; } }
+  .mobilemore a {
+    background: #fff;
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 6px;
+    width: 48%;
+    float: left; }
+    .mobilemore a.next {
+      float: right; }
+
+/*comm section header footer*/
+.header .smenu {
+  display: none; }
+
+.righttools {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 52px;
+  z-index: 999; }
+  .righttools .i {
+    display: block;
+    cursor: pointer;
+    opacity: 0.25;
+    filter: alpha(opacity=25);
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    background: #000;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px; }
+    .righttools .i:hover {
+      opacity: 0.3;
+      filter: alpha(opacity=30); }
+  .righttools .sharewrapper {
+    display: none; }
+    .righttools .sharewrapper .i {
+      opacity: 1;
+      filter: alpha(opacity=100); }
+  .righttools #toup {
+    display: none; }
+  .righttools #share {
+    font-size: 20px;
+    line-height: 48px; }
+  .righttools #wechatshare {
+    background: #51C332;
+    font-size: 20px;
+    line-height: 48px; }
+  .righttools #weiboshare {
+    background: #E6162D;
+    font-size: 22px;
+    line-height: 48px; }
+  .righttools #qqshare {
+    background: #0188FB;
+    font-size: 20px;
+    line-height: 48px; }
+
+.footer {
+  background: url(../images/footer.jpg) no-repeat bottom center;
+  background-size: cover; }
+  .footer .ulink {
+    padding-top: 200px;
+    padding-bottom: 50px; }
+    .footer .ulink .plink {
+      float: left; }
+      @media screen and (max-width: 1000px) {
+        .footer .ulink .plink {
+          float: none; } }
+      .footer .ulink .plink h2 {
+        font-size: 24px;
+        line-height: 1em;
+        padding-bottom: 20px;
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase; }
+      .footer .ulink .plink li {
+        float: left; }
+        .footer .ulink .plink li a {
+          display: block;
+          color: #fff; }
+          .footer .ulink .plink li a:hover {
+            color: #d18e59; }
+      .footer .ulink .plink .plink_1 {
+        font-size: 16px;
+        margin-left: -30px; }
+        .footer .ulink .plink .plink_1 a {
+          margin-left: 30px; }
+        .footer .ulink .plink .plink_1 i {
+          padding: 0 5px; }
+        @media screen and (max-width: 700px) {
+          .footer .ulink .plink .plink_1 {
+            line-height: 40px; } }
+      .footer .ulink .plink .plink_2 {
+        font-size: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-left: 0;
+        background: rgba(255, 255, 255, 0.1);
+        float: left;
+        margin-top: 20px; }
+        @media screen and (max-width: 700px) {
+          .footer .ulink .plink .plink_2 {
+            float: none;
+            border-bottom: 0; } }
+        .footer .ulink .plink .plink_2 li {
+          border-left: 1px solid rgba(255, 255, 255, 0.3);
+          line-height: 34px;
+          padding: 0 30px; }
+          @media screen and (max-width: 700px) {
+            .footer .ulink .plink .plink_2 li {
+              float: none;
+              line-height: 40px;
+              border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
+    .footer .ulink .tlink {
+      float: right;
+      padding-top: 10px; }
+      @media screen and (max-width: 1000px) {
+        .footer .ulink .tlink {
+          float: none; } }
+      .footer .ulink .tlink .txtwrapper a {
+        color: #fff;
+        font-size: 24px;
+        line-height: 1em;
+        padding: 0 8px; }
+        .footer .ulink .tlink .txtwrapper a:hover {
+          opacity: 0.8; }
+        .footer .ulink .tlink .txtwrapper a i.icon-twitter {
+          color: #44d1ff; }
+        .footer .ulink .tlink .txtwrapper a i.icon-wechat {
+          color: #12ce1b; }
+        .footer .ulink .tlink .txtwrapper a i.icon-facebook-squared {
+          color: #2883df; }
+        .footer .ulink .tlink .txtwrapper a i.icon-youtube {
+          color: #d70000; }
+        .footer .ulink .tlink .txtwrapper a i.icon-linkedin-squared {
+          color: #2fbddb; }
+        .footer .ulink .tlink .txtwrapper a i.icon-instagram {
+          color: #f941ee; }
+      .footer .ulink .tlink .txtwrapper li {
+        float: left;
+        padding-bottom: 20px; }
+      .footer .ulink .tlink .globe {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px; }
+        @media screen and (max-width: 1000px) {
+          .footer .ulink .tlink .globe {
+            float: left;
+            margin-bottom: 50px; } }
+        @media screen and (max-width: 400px) {
+          .footer .ulink .tlink .globe {
+            float: none;
+            margin-bottom: 30px; } }
+        .footer .ulink .tlink .globe a {
+          display: block;
+          color: #fff;
+          font-size: 14px;
+          padding: 8px 30px 8px 15px;
+          border: 1px solid rgba(255, 255, 255, 0.4);
+          background: rgba(255, 255, 255, 0.1); }
+          .footer .ulink .tlink .globe a:hover {
+            background: none; }
+      .footer .ulink .tlink .socailweixin {
+        position: relative; }
+        .footer .ulink .tlink .socailweixin div {
+          position: absolute;
+          background: #fff;
+          width: 130px;
+          height: 130px;
+          top: 45px;
+          left: 50%;
+          margin-left: -65px;
+          border: 1px solid #ccc;
+          display: none;
+          z-index: 1; }
+          .footer .ulink .tlink .socailweixin div i {
+            border-color: transparent;
+            border-style: solid;
+            border-width: 10px;
+            display: block;
+            height: 0;
+            position: absolute;
+            width: 0;
+            border-bottom-color: #ccc;
+            border-top-width: 0;
+            left: 50%;
+            margin-left: -8px;
+            top: -10px; }
+            .footer .ulink .tlink .socailweixin div i em {
+              border-color: transparent;
+              border-style: solid;
+              border-width: 10px;
+              display: block;
+              height: 0;
+              position: absolute;
+              width: 0;
+              border-bottom-color: #fff;
+              border-top-width: 0;
+              left: -10px;
+              top: 1px; }
+          .footer .ulink .tlink .socailweixin div img {
+            width: 100%; }
+        .footer .ulink .tlink .socailweixin:hover div {
+          display: block; }
+  .footer .copy .mainWrap {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    color: #fff;
+    opacity: 0.6;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    font-size: 14px; }
+  .footer .copy .contact {
+    float: left; }
+    @media screen and (max-width: 700px) {
+      .footer .copy .contact {
+        float: none; } }
+  .footer .copy .copyrights {
+    float: right; }
+    @media screen and (max-width: 700px) {
+      .footer .copy .copyrights {
+        float: none;
+        padding-top: 10px; } }
