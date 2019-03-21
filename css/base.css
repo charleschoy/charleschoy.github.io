@@ -246,12 +246,10 @@ ul, li {
     font-size: 20px;
     line-height: 48px; }
 
-.footer {
-  background: url(../images/footer.jpg) no-repeat bottom center;
-  background-size: cover; }
+.footer {}
   .footer .ulink {
-    padding-top: 200px;
-    padding-bottom: 50px; }
+    padding-top: 20px;
+    padding-bottom: 20px; }
     .footer .ulink .plink {
       float: left; }
       @media screen and (max-width: 1000px) {
@@ -303,7 +301,7 @@ ul, li {
               border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
     .footer .ulink .tlink {
       float: right;
-      padding-top: 10px; }
+      padding-top: 0px; }
       @media screen and (max-width: 1000px) {
         .footer .ulink .tlink {
           float: none; } }
@@ -328,7 +326,7 @@ ul, li {
           color: #f941ee; }
       .footer .ulink .tlink .txtwrapper li {
         float: left;
-        padding-bottom: 20px; }
+        padding-bottom: 0px; }
       .footer .ulink .tlink .globe {
         float: right;
         margin-top: 10px;
@@ -393,12 +391,12 @@ ul, li {
         .footer .ulink .tlink .socailweixin:hover div {
           display: block; }
   .footer .copy .mainWrap {
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
-    color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    color: #000;
     opacity: 0.6;
     padding-top: 20px;
     padding-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 14px; }
   .footer .copy .contact {
     float: left; }

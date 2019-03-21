@@ -853,7 +853,7 @@
     background: url(../images/focus_contenttitleimg.jpg) no-repeat top center;
     background-size: cover;
     height: auto;
-    padding: 200px 0 220px 0; }
+    padding: 200px 0 120px 0; }
     @media screen and (max-width: 700px) {
       .content.focusarticle .title {
 	padding-bottom: 200px; } }
@@ -898,7 +898,7 @@
     .content.focusarticle .mainWrap {
       margin: auto; } }
   .content.focusarticle .titleimg {
-    margin: -160px auto 0 auto;
+    margin: -60px auto 0 auto;
     text-align: center; }
   .content.focusarticle .article {
     font-size: 18px;
