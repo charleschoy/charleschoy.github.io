@@ -856,10 +856,11 @@
     padding: 200px 0 120px 0; }
     @media screen and (max-width: 700px) {
       .content.focusarticle .title {
-	padding-bottom: 200px; } }
+	padding-top: 80px;
+	padding-bottom: 120px; } }
     @media screen and (max-width: 400px) {
       .content.focusarticle .title {
-        padding-top: 75px; } }
+        padding-top: 80px; } }
     .content.focusarticle .title h1 {
       font-size: 46px;
       font-weight: 600;
