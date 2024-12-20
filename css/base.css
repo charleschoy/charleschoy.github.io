@@ -68,6 +68,7 @@ ul, li {
   position: relative; }
 
 .clearfix {
+  color: darkgray;
   *display: table;
   *zoom: 1; }
 
