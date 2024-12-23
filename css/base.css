@@ -401,10 +401,12 @@ ul, li {
     float: left; }
     @media screen and (max-width: 700px) {
       .footer .copy .contact {
+        color: black;
         float: none; } }
   .footer .copy .copyrights {
     float: right; }
     @media screen and (max-width: 700px) {
       .footer .copy .copyrights {
+        color: black;
         float: none;
         padding-top: 10px; } }
